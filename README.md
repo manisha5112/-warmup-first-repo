@@ -1,15 +1,15 @@
 # -warmup-first-repo
 
-## 1. Understand Git & Version Management
+## Understand Git & Version Management
 
-1.1 : basics of Git: staging, commits, push, pull, merge
-Objective:
+##1.basics of Git: staging, commits, push, pull, merge
+### Objective:
 To understand Git basics, version control, branching strategies, and team collaboration.
 
-Basics of Git:
+### Basics of Git:
 Git is a distributed version control system that tracks code changes and helps developers collaborate.
 
-Important Git Commands:
+### Important Git Commands:
 1. Staging (git add)
 Selects changes for the next commit.
 git add README.md
@@ -31,17 +31,27 @@ Combines changes from one branch into another.
 git merge feature/login
 
 
-1.2 :  Branching Strategies
+### Branching Strategies
 main: Contains stable, production-ready code.
 dev: Integrates and tests changes before release.
 feature/*: Used to develop individual features, e.g., feature/login.
 
-1.3: What Git Solves in Collaborative Development
+### What Git Solves in Collaborative Development
 Git helps multiple developers work on the same project efficiently. It tracks code changes, maintains version history, and allows developers to work on separate branches without affecting the main code. It also helps identify and resolve merge conflicts, supports code reviews through Pull Requests, and allows teams to share their changes using push and pull. Overall, Git makes teamwork easier, safer, and more organized.
 
 
-## 3. Release Management Process
+##2. Create a GitHub Repo
 
+### Objective: 
+Create a GitHub repository to store warmup learnings and practice Git version control.
+
+### Tasks Completed:
+•	Created a GitHub repository named warmup-first-repo.
+•	Added a README.md file summarizing my learnings about Git, GitHub, branching strategies, collaborative development, and essential development tools.
+•	Practiced making commits to track changes in the README file.
+
+
+## 3. Release Management Process
 ### Objective
 To understand the release process at FloCard and how QA, Testing, FOU, and Deployment are coordinated.
 
@@ -62,14 +72,6 @@ Development → QA & Testing → Issue Fixes → Required Approvals → Deployme
 ### Key Learning
 Release management helps teams deliver software updates in a controlled and organized manner. Coordination between development, QA, testing, and deployment reduces errors and improves release reliability.
 
-### Status
-In Progress
-
-### Pending Actions
-- [ ] Read FloCard's internal release documentation.
-- [ ] Confirm the meaning and responsibilities of FOU.
-- [ ] Understand the actual release workflow from a mentor.
-- [ ] Update these notes with the company-specific process.
 
 ## 4. Setup Essential Development Tools
 ### Objective
